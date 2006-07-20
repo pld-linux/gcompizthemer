@@ -16,10 +16,10 @@ Requires:	compiz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-A GTK+ tool to configure window decorations in compiz
+A GTK+ tool to configure window decorations in compiz.
 
 %description -l pl
-Narzêdzie GTK+ do konfiguracji dekoracji okien w compizie
+Narzêdzie GTK+ do konfiguracji dekoracji okien w compizie.
 
 %prep
 %setup -q -n %{name}
