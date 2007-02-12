@@ -1,5 +1,5 @@
 Summary:	A GTK+ tool to configure window decorations in compiz
-Summary(pl):	Narzêdzie GTK+ do konfiguracji dekoracji okien w compizie
+Summary(pl.UTF-8):   NarzÄ™dzie GTK+ do konfiguracji dekoracji okien w compizie
 Name:		gcompizthemer
 Version:	0.7
 Release:	1
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A GTK+ tool to configure window decorations in compiz.
 
-%description -l pl
-Narzêdzie GTK+ do konfiguracji dekoracji okien w compizie.
+%description -l pl.UTF-8
+NarzÄ™dzie GTK+ do konfiguracji dekoracji okien w compizie.
 
 %prep
 %setup -q -n %{name}
